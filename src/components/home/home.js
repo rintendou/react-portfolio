@@ -9,7 +9,7 @@ const Home = () => {
                     Hi, <br /> I'm Danny
                 </h1>
                 <h2> 
-                    Undergraduate Student at the <a href='https://www.nyit.edu/'><em>New York Institute of Technology</em></a> & an Aspiring Fullstack Developer.
+                    Undergraduate Student at the <a href='https://www.nyit.edu/'><em>New York Institute of Technology</em>.</a>
                 </h2>
                 <Link to='/contact' className="button"> CONTACT ME </Link>
             </div>

@@ -1,0 +1,71 @@
+.about-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transform-style: preserve-3d;
+    animation: fadeIn 1s forwards;
+    animation-delay: 1s;
+
+    .about-me {
+        position: absolute;
+        left: 15%;
+        top: 50%;
+        width: 35%;
+        transform: translateY(-50%);
+        animation: fadeIn 1s 1.8s backwards;
+
+        vertical-align: middle;
+        display: table-cell;    
+        max-height: 90%;
+        
+        h1 {
+            font-size: 60px;
+            font-family: "Coolvetica";
+            color: white;
+            text-decoration: underline;
+            font-weight: 400;
+
+            margin-top: 0;
+            margin-bottom: 20px;
+            left: 10px
+        }
+
+        p { 
+            font-size: 20px;
+            color: lightgray;
+            font-family: sans-serif;
+            font-weight: 300;
+        }
+    }
+    
+    .carousel {
+        position: absolute;
+        overflow: hidden;
+        cursor: grab;
+        
+        animation: fadeIn 1s 2.8s backwards;
+
+        width: 45%;
+        right: 10px;
+    
+        .inner {
+            display: flex;
+            
+        }
+    
+        .item {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        
+            min-width: 30rem;
+            min-height: 40rem;
+            font-size: 200px;
+    
+            background-color: #181818;
+            border: 1px solid #ffd700;
+            border-radius: 5px;
+        }
+    }
+}

@@ -8,7 +8,7 @@ const Layout = () => {
             <Sidebar />
             
             <div className='page'>
-                <Outlet />
+                <Outlet /> {/* Returns all children in the Layout route, check App.js*/}
             </div>
         </div>
     );

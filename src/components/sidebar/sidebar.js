@@ -13,7 +13,7 @@ const Sidebar = () => {
                     <FontAwesomeIcon icon={faHome} color="$4d4d4w" />
 
                 </NavLink>
-                <NavLink className="about-me" exact="true" activeclassname="active" to="/about">
+                <NavLink className="about-me" exact="true" activeclassname="active" to="/about-me">
                     <FontAwesomeIcon icon={faUserAlt} color="$4d4d4w" />
 
                 </NavLink>
